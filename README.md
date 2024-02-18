@@ -88,6 +88,18 @@ Request Body: { "text": "<your_text_here>" }
 Description: Identifies the longest words in each paragraph of the text.
 Response: Returns an array of longest words for each paragraph.
 
+## Log Visualization
+
+The project utilizes a logging framework called Winston to manage logging functionalities efficiently. It provide features like log levels, log formatting, and log storage options.
+
+For data visualization and exploration, Kibana has been used. It is a data visualization tool that allows users to visualize and explore log data. It provides a user interface for querying, analyzing, and visualizing log data.
+
+- **Integrate with Elasticsearch**: Set up Elasticsearch and configure the logging framework to send log data to Elasticsearch.
+
+- **Visualize the logs**: Use Kibana to visualize the logs.
+
+- **Monitor the logs**: Use Kibana to monitor the log data in real-time. Analyze trends, identify anomalies, and troubleshoot issues proactively to ensure the reliability and performance of the Text Analyzer application.
+
 ## Running Tests
 
 Run tests by executing:
